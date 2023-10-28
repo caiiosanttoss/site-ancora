@@ -1,0 +1,26 @@
+$cor-principal: #3498db;
+
+nav {
+  background-color: $cor-principal;
+  padding: 10px;
+  text-align: center;
+
+  a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+section {
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
